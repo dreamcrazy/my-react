@@ -1,0 +1,25 @@
+
+.box {
+    width: 728px;
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+.cat-list {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.cat-list li{
+    display: flex;
+    align-items: center;
+}
+.cat-list .active{
+    border: 1px solid red;
+}
+
+.hao-color {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, #218bff, #c084fc, #db2777);
+}
